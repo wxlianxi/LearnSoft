@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/lu">
+
+        <TextView
+            android:id="@+id/dialogText_lu_click"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:text="A Party school expert said that China’s low fertility rate and shrinking labor force have contributed to the current economic downturn, echoing economists and demographers."
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/dialogImage_lu_click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:layout_gravity="bottom|right" />
+</FrameLayout>

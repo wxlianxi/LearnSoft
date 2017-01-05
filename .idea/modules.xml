@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LearnBase/LearnBase.iml" filepath="$PROJECT_DIR$/LearnBase/LearnBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnDreamweaver/LearnDreamweaver.iml" filepath="$PROJECT_DIR$/LearnDreamweaver/LearnDreamweaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnPhotoshop/LearnPhotoshop.iml" filepath="$PROJECT_DIR$/LearnPhotoshop/LearnPhotoshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnSoft.iml" filepath="$PROJECT_DIR$/LearnSoft.iml" />
+    </modules>
+  </component>
+</project>

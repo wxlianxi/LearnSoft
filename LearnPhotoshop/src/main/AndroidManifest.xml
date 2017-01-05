@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xxl.learn.com.photoshop">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/FullScreenTheme">
+        <activity
+            android:name=".LogoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndexActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".list.List_Menu1_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".list.List_Menu2_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".menu.menu1.Menu1_Lesson1_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".menu.menu1.Menu1_Lesson2_Activity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BaseListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BaseIndexActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="landscape" />
+
+
+    </application>
+
+</manifest>

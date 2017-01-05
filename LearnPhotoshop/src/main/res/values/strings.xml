@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Learn Soft</string>
+    <string name="title_activity_base_list">BaseListActivity</string>
+
+
+    <string name="menu1_lesson1_1">新建Html文件</string>
+    <string name="menu1_lesson1_2">点击更改title标签内容</string>
+</resources>
